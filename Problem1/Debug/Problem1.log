@@ -1,0 +1,21 @@
+﻿Der Buildvorgang wurde am 10.02.2014 00:53:50 gestartet.
+     1>Projekt "c:\Users\Thilo\documents\visual studio 2010\Projects\ProjectEuler\Problem1\Problem1.vcxproj" auf Knoten "2", build Ziel(e).
+     1>PrepareForBuild:
+         Das Verzeichnis "c:\users\thilo\documents\visual studio 2010\Projects\ProjectEuler\Debug\" wird erstellt.
+       InitializeBuildStatus:
+         "Debug\Problem1.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Problem1.exe.embed.manifest.res" Debug\Problem1_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\thilo\documents\visual studio 2010\Projects\ProjectEuler\Debug\Problem1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Problem1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\thilo\documents\visual studio 2010\Projects\ProjectEuler\Debug\Problem1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\thilo\documents\visual studio 2010\Projects\ProjectEuler\Debug\Problem1.lib" /MACHINE:X86 Debug\Problem1.exe.embed.manifest.res
+         Debug\main.obj
+     1>LINK : fatal error LNK1123: Fehler bei der Konvertierung in COFF: Datei ist ungültig oder beschädigt.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(268,5): error MSB6006: "link.exe" wurde mit dem Code 1123 beendet.
+     1>Die Erstellung des Projekts "c:\Users\Thilo\documents\visual studio 2010\Projects\ProjectEuler\Problem1\Problem1.vcxproj" ist abgeschlossen, build Ziel(e) -- FEHLER.
+
+Fehler beim Erstellen
+
+Verstrichene Zeit 00:00:02.68
